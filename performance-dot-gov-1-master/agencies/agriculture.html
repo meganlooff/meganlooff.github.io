@@ -1,4 +1,4 @@
-<!doctype html>
+﻿﻿<!doctype html>
 <html lang="en">
   <head>
     <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
@@ -12,71 +12,77 @@
   <a class="usa-skipnav" href="#main-content">Skip to main content</a>
   <header class="usa-header usa-header-basic" role="banner">
     <!-- Gov banner BEGIN -->
- <div class="usa-navbar">
-
-      <button class="usa-menu-btn">Menu</button>
-
-      <div class="usa-logo" id="logo">
-
-        <em class="usa-logo-text">
-
-          <a href="#" accesskey="1" title="Home" aria-label="Home">Performance.gov</a>
-
-        </em>
-
+    <div class="usa-banner">
+      <div class="usa-accordion">
+        <header class="usa-banner-header">
+          <div class="usa-grid usa-banner-inner">
+          <img src="../img/favicons/favicon-57.png" alt="U.S. flag">
+          <p>An official website of the United States government</p>
+          <button class="usa-accordion-button usa-banner-button"
+            aria-expanded="false" aria-controls="gov-banner">
+            <span class="usa-banner-button-text">Here's how you know</span>
+          </button>
+          </div>
+        </header>
+        <div class="usa-banner-content usa-grid usa-accordion-content" id="gov-banner">
+          <div class="usa-banner-guidance-gov usa-width-one-half">
+            <img class="usa-banner-icon usa-media_block-img" src="../img/icon-dot-gov.svg" alt="Dot gov">
+            <div class="usa-media_block-body">
+              <p>
+                <strong>The .gov means it’s official.</strong>
+                <br>
+                Federal government websites always use a .gov or .mil domain. Before sharing sensitive information online, make sure you’re on a .gov or .mil site by inspecting your browser’s address (or “location”) bar.
+              </p>
+            </div>
+          </div>
+          <div class="usa-banner-guidance-ssl usa-width-one-half">
+            <img class="usa-banner-icon usa-media_block-img" src="../img/icon-https.svg" alt="SSL">
+            <div class="usa-media_block-body">
+              <p>This site is also protected by an SSL (Secure Sockets Layer) certificate that’s been signed by the U.S. government. The <strong>https://</strong> means all transmitted data is encrypted  — in other words, any information or browsing history that you provide is transmitted securely.</p>
+            </div>
+          </div>
+        </div>
       </div>
-
     </div>
-
-    <nav role="navigation" class="usa-nav">
-
-      <div class="usa-nav-inner">
-
+    <!-- Gov banner END -->
+    <div class="usa-nav-container">
+      <div class="usa-navbar">
+        <button class="usa-menu-btn">Menu</button>
+        <div class="usa-logo" id="logo">
+          <em class="usa-logo-text">
+            <a href="../index.html" accesskey="1" title="Home" aria-label="Home">Performance.gov</a>
+          </em>
+        </div>
+      </div>
+      <nav role="navigation" class="usa-nav">
         <button class="usa-nav-close">
-
-          <img src="img/close.svg" alt="close">
-
+          <img src="/assets/img/close.svg" alt="close">
         </button>
-
         <ul class="usa-nav-primary usa-accordion">
-
-  
-
           <li>
-
-            <button class="usa-accordion-button usa-nav-link" aria-expanded="false" aria-controls="sidenav-1">
-
-              <span>PMA</span>
-
-            </button>
-
-            <ul id="sidenav-1" class="usa-nav-submenu">
-
-              <li>
-
-                <a href="#">CAP Goal 1</a>
-
-              </li>
-
-              <li>
-
-                <a href="#">CAP Goal 2</a>
-
-              </li>
-
-              <li>
-
-                <a href="#">CAP Goal 3</a>
-
-              </li>
-
-            </ul>
-
+            <a class="usa-nav-link" href="../index.html">
+              <span>Home</span>
+            </a>
           </li>
-
-         <li>
-
+         
           <li>
+            <button class="usa-accordion-button usa-nav-link" aria-expanded="false" aria-controls="sidenav-2">
+          <span>PMA</span>
+            </button>
+            <ul id="sidenav-2" class="usa-nav-submenu">
+              <li>
+                <a href="#">CAP Goal 1</a>
+              </li>
+              <li>
+                <a href="#">CAP Goal 2</a>
+              </li>
+              <li>
+                <a href="#">CAP Goal 3</a>
+              </li>
+            </ul>
+          </li>
+   
+            <li>
 
             <button class="usa-accordion-button usa-nav-link" aria-expanded="false" aria-controls="megamenu-1"
 
@@ -254,78 +260,34 @@
 
             </li>
 
-      </ul>
 
-          <li>
-
+           <li>
             <button class="usa-accordion-button usa-nav-link" aria-expanded="false" aria-controls="sidenav-3">
-
               <span>About</span>
-
             </button>
-
             <ul id="sidenav-3" class="usa-nav-submenu">
-
               <li>
-
                 <a href="#">About 1</a>
-
               </li>
-
               <li>
-
                 <a href="#">About 2</a>
-
               </li>
-
               <li>
-
                 <a href="#">About 3</a>
-
               </li>
-
             </ul>
-
-      </li>
-
-      </ul>
-
-        <div class="usa-nav-secondary">
-
-          <form class="usa-search usa-search-small js-search-form">
-
-            <div role="search">
-
-              <label class="usa-sr-only" for="search-field-small">Search small</label>
-
-              <input id="search-field-small" type="search" name="search">
-
-              <button type="submit">
-
-                <span class="usa-sr-only">Search</span>
-
-              </button>
-
-            </div>
-
-          </form>
-
-          <ul class="usa-unstyled-list usa-nav-secondary-links">
-
-            <li class="js-search-button-container">
-
-              <button class="usa-header-search-button js-search-button">Search</button>
-
-            </li>
-
-          </ul>
-
-        </div>
-
-      </div>
-
-    </nav>
-
+          </li>
+        </ul>
+        <form class="usa-search usa-search-small">
+          <div role="search">
+            <label class="usa-sr-only" for="search-field-small">Search small</label>
+            <input id="search-field-small" type="search" name="search">
+            <button type="submit">
+              <span class="usa-sr-only">Search</span>
+            </button>
+          </div>
+        </form>
+      </nav>    </div>
   </header>
   <div class="usa-overlay"></div>
   <main class="usa-grid usa-section usa-content usa-layout-docs" id="main-content">
@@ -382,10 +344,8 @@
           <li class="usa-footer-primary-link">
             <h4>Initiatives</h4>
           </li>
-          <li><a href="javascript:void(0);">Freeze the Footprint</a></li>
-          <li><a href="javascript:void(0);">Reduce the Footprint</a></li>
-          <li><a href="javascript:void(0);">Permitting Dashboard</a></li>
-          <li><a href="javascript:void(0);">Program Inventory</a></li>
+          <li><a href="javascript:void(0);">FOIA Portal</a></li>
+          <li><a href="javascript:void(0);">Permitting</a></li>
         </ul>
         <ul class="usa-unstyled-list usa-width-one-fourth usa-footer-primary-content">
           <li class="usa-footer-primary-link">
@@ -404,7 +364,7 @@
           <li><a href="https://usa.gov/">USA.gov</a></li>
           <li><a href="https://www.whitehouse.gov/">WhiteHouse.gov</a></li>
         </ul>
-        <ul class="usa-unstyled-list usa-width-one-fourth usa-footer-primary-content">
+       <!-- <ul class="usa-unstyled-list usa-width-one-fourth usa-footer-primary-content">
           <li class="usa-footer-primary-link">
             <h4>.....</h4>
           </li>
@@ -422,14 +382,14 @@
         <input id="email" name="email" type="email">
 
         <button type="submit">Sign up</button>
-      </div>
+      </div> -->
     </div>
   </div>
 
   <div class="usa-footer-secondary_section usa-footer-big-secondary-section">
     <div class="usa-grid">
       <div class="usa-footer-logo usa-width-one-half">
-        <img class="usa-footer-logo-img" src="../img/homepage_images/logo-gsa.png" alt="Logo image"> <img class="usa-footer-logo-img" src="../img/homepage_images/logo-omb.png" alt="Logo image">
+        <img class="usa-footer-logo-img" src="img/homepage_images/logo-gsa.png" alt="Logo image"> <img class="usa-footer-logo-img" src="img/homepage_images/logo-omb.png" alt="Logo image">
         <h3 class="usa-footer-logo-heading">General Services Administration & the Office of Management and Budget</h3>
       </div>
       <div class="usa-footer-contact-links usa-width-one-half">
@@ -446,7 +406,7 @@
           <span>RSS</span>
         </a>
         <address>
-          <h3 class="usa-footer-contact-heading">Technical contact information</h3>
+          <h3 class="usa-footer-contact-heading">Contact Us</h3>
 
           <a href="mailto:PrepSupport@GSA.gov">PrepSupport@GSA.gov</a>
             <p>Content is updated every 3 months; last on February 1, 2018</p>
@@ -455,7 +415,10 @@
     </div>
   </div>
 </footer>
-  <!-- Update the link path to where your JavaScript file is located. For example: /path/to/your/assets/js/lib/uswds.min.js -->
-  <script src="../js/uswds.min.js"></script>
+  <!-- Update the link path to where your JavaScript file is located. For example: /path/to/yourjs/lib/uswds.min.js -->
+  <script src="js/uswds.min.js"></script>
   </body>
 </html>
+
+   
+  
