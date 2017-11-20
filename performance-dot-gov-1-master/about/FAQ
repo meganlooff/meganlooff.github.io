@@ -1,1 +1,366 @@
-about
+<!doctype html>
+<html lang="en">
+  <head>
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Performance.gov | Department of Agriculture</title>
+    <!-- Update the link path to where your stylesheet file is located. For example: /path/to/your/assets/css/lib/uswds.min.css -->
+    <link rel="stylesheet" href="../css/uswds.css">
+  </head>
+  <body class="layout-demo">
+  <a class="usa-skipnav" href="#main-content">Skip to main content</a>
+  <header class="usa-header usa-header-basic" role="banner">
+    <!-- Gov banner BEGIN -->
+    <div class="usa-banner">
+      <div class="usa-accordion">
+        <header class="usa-banner-header">
+          <div class="usa-grid usa-banner-inner">
+          <img src="../img/favicons/favicon-57.png" alt="U.S. flag">
+          <p>An official website of the United States government</p>
+          <button class="usa-accordion-button usa-banner-button"
+            aria-expanded="false" aria-controls="gov-banner">
+            <span class="usa-banner-button-text">Here's how you know</span>
+          </button>
+          </div>
+        </header>
+        <div class="usa-banner-content usa-grid usa-accordion-content" id="gov-banner">
+          <div class="usa-banner-guidance-gov usa-width-one-half">
+            <img class="usa-banner-icon usa-media_block-img" src="../img/icon-dot-gov.svg" alt="Dot gov">
+            <div class="usa-media_block-body">
+              <p>
+                <strong>The .gov means it’s official.</strong>
+                <br>
+                Federal government websites always use a .gov or .mil domain. Before sharing sensitive information online, make sure you’re on a .gov or .mil site by inspecting your browser’s address (or “location”) bar.
+              </p>
+            </div>
+          </div>
+          <div class="usa-banner-guidance-ssl usa-width-one-half">
+            <img class="usa-banner-icon usa-media_block-img" src="../img/icon-https.svg" alt="SSL">
+            <div class="usa-media_block-body">
+              <p>This site is also protected by an SSL (Secure Sockets Layer) certificate that’s been signed by the U.S. government. The <strong>https://</strong> means all transmitted data is encrypted  — in other words, any information or browsing history that you provide is transmitted securely.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Gov banner END -->
+    <div class="usa-nav-container">
+      <div class="usa-navbar">
+        <button class="usa-menu-btn">Menu</button>
+        <div class="usa-logo" id="logo">
+          <em class="usa-logo-text">
+            <a href="../index.html" accesskey="1" title="Home" aria-label="Home">Performance.gov</a>
+          </em>
+        </div>
+      </div>
+      <nav role="navigation" class="usa-nav">
+         <button class="usa-nav-close">
+          <img src="/assets/img/close.svg" alt="close">
+        </button>
+        <ul class="usa-nav-primary usa-accordion">
+          <li>
+            <a class="usa-nav-link" href="../index.html">
+              <span>Home</span>
+            </a>
+          </li>
+         
+          <li>
+            <button class="usa-accordion-button usa-nav-link" aria-expanded="false" aria-controls="sidenav-2">
+          <span>PMA</span>
+            </button>
+            <ul id="sidenav-2" class="usa-nav-submenu">
+              <li>
+                <a href="#">CAP Goal 1</a>
+              </li>
+              <li>
+                <a href="#">CAP Goal 2</a>
+              </li>
+              <li>
+                <a href="#">CAP Goal 3</a>
+              </li>
+           </ul>
+          </li>
+           <li>
+            <button class="usa-accordion-button usa-nav-link" aria-expanded="false" aria-controls="megamenu-1"
+              <span>Agencies</span>
+            </button>
+            <ul class="usa-nav-submenu usa-megamenu usa-grid-full" id="megamenu-1">
+            <li class="usa-megamenu-col">
+              <ul>
+                <li>
+                  <a href="agencies/agriculture.html">Department of Agriculture</a>
+                </li>
+                <li>
+                  <a href="#">Department of Commerce</a>
+                </li>
+                <li>
+                  <a href="#">Department of Defense</a>
+                </li>
+                <li>
+                  <a href="#">Department of Education</a>
+                </li>
+                <li>
+                  <a href="#">Department of Energy</a>
+                </li>
+                <li>
+                  <a href="#">Enviromental Protection Agency</a>
+                </li>
+              </ul>
+            </li>
+            <li class="usa-megamenu-col">
+              <ul>
+                <li>
+                  <a href="#">Department of Health and Human Services</a>
+                </li>
+                <li>
+                  <a href="#">Department of Homeland Security</a>
+                </li>
+                <li>
+                  <a href="#">Department of Housing and Urban Development</a>
+                </li>
+                <li>
+                  <a href="#">Department of the Interior</a>
+                </li>
+                <li>
+                  <a href="#">Department of Justice</a>
+                </li>
+              </ul>
+            </li>
+            <li class="usa-megamenu-col">
+              <ul>
+                <li>
+
+                  <a href="#">Department of Labor</a>
+                </li>
+                <li>
+                  <a href="#">Department of State and USAID</a>
+                </li>
+                <li>
+
+                  <a href="#">Department of Transportation</a>
+                </li>
+                <li>
+                  <a href="#">Department of the Treasury</a>
+                </li>
+                <li>
+                  <a href="#">Department of Veterans Affairs</a>
+                </li>
+                <li>
+                  <a href="#">General Services Administration</a>
+                </li>
+              </ul>
+            </li>
+            <li class="usa-megamenu-col">
+              <ul>
+                <li>
+                  <a href="#">NASA</a>
+                </li>
+                <li>
+                  <a href="#">National Science Foundation</a>
+                </li>
+                <li>
+                  <a href="#">Office of Personnel Management</a>
+                </li>
+                <li>
+                  <a href="#">Small Business Administration</a>
+                </li>
+                <li>
+                  <a href="#">Social Security Administration</a>
+                </li>
+              </ul>
+            </li>
+      </ul>
+           <li>
+            <button class="usa-accordion-button usa-nav-link" aria-expanded="false" aria-controls="sidenav-3">
+              <span>About</span>
+            </button>
+            <ul id="sidenav-3" class="usa-nav-submenu">
+
+            <li>
+                <a href="#">FAQ</a>
+              </li>
+              <li>
+                <a href="#">About 2</a>
+              </li>
+              <li>
+                <a href="#">About 3</a>
+              </li>
+             </ul>
+          </li>        </ul>
+        <form class="usa-search usa-search-small">
+          <div role="search">
+            <label class="usa-sr-only" for="search-field-small">Search small</label>
+            <input id="search-field-small" type="search" name="search">
+            <button type="submit">
+              <span class="usa-sr-only">Search</span>
+            </button>
+          </div>
+        </form>
+      </nav>
+    </div>
+  </header>
+
+
+<h6>Frequently Asked Questions (FAQ)</h6>
+
+<ul class="usa-accordion">
+
+  <li>
+    <button class="usa-accordion-button"
+      aria-expanded="true"
+      aria-controls="a1">
+      When is performance information on this website updated?
+    </button>
+    <div id="a1" class="usa-accordion-content">
+      Progress on Agency Priority Goals and Cross Agency Priority Goals are updated on a quarterly basis with a focus on work completed in the prior quarter, work planned for the remainder of the goal period, and the addition of most recent data where available.  Progress on each major Federal agency’s strategic objectives in the agency Strategic Plan is updated annually, with agencies providing a brief description of achievements during the last fiscal year, any challenges encountered, and next steps planned to address identified challenges to drive performance improvements. 
+    </div>
+  </li>
+
+  <li>
+    <button class="usa-accordion-button"
+      aria-expanded="false"
+      aria-controls="a2">
+      Where can I find information on agency performance - such as agency goals and progress on those goals?
+    </button>
+    <div id="a2" class="usa-accordion-content">
+    Federal agencies provide information to the public on their goals and objectives in numerous ways. Federal agencies identify long-term goals and objectives in their Strategic Plans; they identify annual performance goals in their Annual Performance Plans updated with the President’s Budget each February. Also, leaders of the 15 Cabinet departments and 9 other large Federal agencies have undertaken a new effort to set a few near-term implementation-focused Agency Priority Goals to achieve within a 24-month time frame. These Agency Priority Goals represent a small number of ambitious, outcome-focused performance goals that hinge on strong execution, rather than additional resources or legislative action.<br />
+Federal agencies report progress on their performance goals in their Annual Performance Reports or their Performance and Accountability Reports (PARs) which are updated either in February or November each year, respectively. Agencies post their Annual Performance Reports or PARs, Strategic Plans, and Annual Performance Plans, on their websites. Performance.gov provides a one-stop shop for links to this agency information.
+As the next step toward making government performance information more easily understood to the public, Performance.gov also supplies, on a single central website, an integrated view of agency strategic goals, strategic objectives, and detailed information on each Agency Priority Goal.  The site also has information about the Cross-Agency Priority Goals which include government-wide mission and management priorities. The Performance.gov website, as a whole, comprises a Federal performance plan.
+
+    </div>
+  </li>
+
+  <li>
+    <button class="usa-accordion-button"
+      aria-expanded="false"
+      aria-controls="a3">
+      What are the Cross-Agency Priority (CAP) Goals?
+    </button>
+    <div id="a3" class="usa-accordion-content">
+    To speed progress on cross-government collaboration and tackle government-wide management challenges affecting most agencies, the Office of Management and Budget (OMB) first established a limited number of interim Cross-Agency Priority (CAP) Goals in February 2012 and released a new set of goals in March 2014. CAP Goals are a subset of Presidential priorities, and are complemented by other cross-agency coordination and goal-setting efforts.
+
+    </div>
+  </li>
+
+  <li>
+    <button class="usa-accordion-button"
+      aria-expanded="false"
+      aria-controls="a4">
+      How are the Cross-Agency Priority (CAP) Goals Selected?
+    </button>
+    <div id="a4" class="usa-accordion-content">
+    To develop the CAP Goals, OMB and the Performance Improvement Council work with senior policy officials and agencies based on criteria which include: 1) whether a goal has clear cross-agency implementation actions that have been identified, 2) whether setting a CAP Goal would likely accelerate progress, and 3) whether it aligns with Administration priorities. Studies by the Government Accountability Office (GAO) are also considered in selecting CAP Goals. In addition, OMB consults with congressional committees as well as considers congressional questions and suggestions as it finalizes the CAP Goals, strengthening the partnership between the Congress and the executive branch that is critical to performance improvement over the long run.  
+    </div>
+  </li>
+
+  <li>
+    <button class="usa-accordion-button"
+      aria-expanded="false"
+      aria-controls="a5">
+      What is the GPRA Modernization Act of 2010 and why is it important?
+    </button>
+    <div id="a5" class="usa-accordion-content">
+    The GPRA Modernization Act of 2010 was enacted on January 4, 2011. The Act modernizes the federal government’s performance management framework, retaining and amplifying some aspects of the Government Performance and Results Act of 1993 (GPRA) while also addressing some of its weaknesses. The GPRA in 1993 had established strategic planning, performance planning, and reporting as a framework for agencies to communicate progress in achieving their missions. The GPRA Modernization Act established important changes to existing requirements that move toward a more useful approach to performance planning and reporting.
+The GPRA Modernization Act serves as a foundation for helping agencies to focus on their highest priorities and creating a culture where data and empirical evidence plays a greater role in policy, budget, and management decisions. The purposes of the GPRA Modernization Act were to:
+Modernize and refine the requirements established by GPRA in order to produce more frequent, relevant data which can then inform decision makers and agency operations;
+Codify and strengthen existing resources for performance management, including the Chief Operating Officer (COO), Performance Improvement Officers (PIOs) within the federal agencies and the interagency Performance Improvement Council (PIC);
+Apply the latest technologies and lessons learned from nearly two decades of GPRA implementation;
+Lead to more effective management of government agencies at a reduced cost.
+    </div>
+    </li>
+    <li>
+      <button class="usa-accordion-button"
+        aria-expanded="false"
+        aria-controls="a5">
+        What congressionally-mandated plans and reports did agencies propose for Congress to consider modifying in response to the GPRA Modernization Act (P.L. 111-352)?
+      </button>
+      <div id="a5" class="usa-accordion-content">
+      Federal agencies annually produce thousands of congressionally-mandated plans and reports, and some that were once useful can become outdated, duplicative, or less useful over time. Through the Government Performance and Results Act (GPRA) Modernization Act of 2010, Congress required Federal agencies to identify for elimination or modification plans and reports that are outdated or duplicative.
+Federal agencies have identified 339 congressionally-required plans and reports proposed for congressional modification. This list is based on agency review of original proposals published in 2012 and 2014, several of which have since been repealed, as well as newly identified proposals. It excludes previous proposals already modified by Congress or which Federal agencies have identified as no longer outdated or duplicative.
+      </div>
+      </li>
+      </ul>
+    <footer class="usa-footer usa-footer-big" role="contentinfo">
+<div class="usa-grid usa-footer-return-to-top">
+  <a href="#">Return to top</a>
+</div>
+<div class="usa-footer-primary-section">
+  <div class="usa-grid-full">
+    <nav class="usa-footer-nav usa-width-two-thirds">
+      <ul class="usa-unstyled-list usa-width-one-fourth usa-footer-primary-content">
+        <li class="usa-footer-primary-link">
+          <h4>Initiatives</h4>
+        </li>
+        <li><a href="javascript:void(0);">FOIA Portal</a></li>
+        <li><a href="javascript:void(0);">Permitting</a></li>
+      </ul>
+      <ul class="usa-unstyled-list usa-width-one-fourth usa-footer-primary-content">
+        <li class="usa-footer-primary-link">
+          <h4>Resources</h4>
+        </li>
+        <li><a href="javascript:void(0);">GPRAMA legislation</a></li>
+        <li><a href="javascript:void(0);">Circular A-11</a></li>
+        <li><a href="javascript:void(0);">OMB</a></li>
+      </ul>
+      <ul class="usa-unstyled-list usa-width-one-fourth usa-footer-primary-content">
+        <li class="usa-footer-primary-link">
+          <h4>Partners</h4>
+        </li>
+        <li><a href="https://www.data.gov/">Data.gov</a></li>
+        <li><a href="https://www.usaspending.gov/">USASpending.gov</a></li>
+        <li><a href="https://usa.gov/">USA.gov</a></li>
+        <li><a href="https://www.whitehouse.gov/">WhiteHouse.gov</a></li>
+      </ul>
+     <!-- <ul class="usa-unstyled-list usa-width-one-fourth usa-footer-primary-content">
+        <li class="usa-footer-primary-link">
+          <h4>.....</h4>
+        </li>
+        <li><a href="javascript:void(0);">Secondary link</a></li>
+        <li><a href="javascript:void(0);">Secondary link</a></li>
+        <li><a href="javascript:void(0);">Secondary link</a></li>
+        <li><a href="javascript:void(0);">Secondary link</a></li>
+      </ul>
+    </nav>
+    <div class="usa-sign_up-block usa-width-one-third">
+      <h3 class="usa-sign_up-header">Subscribe for updates</h3>
+      <label class="" for="email" id="">Your email address</label>
+      <input id="email" name="email" type="email">
+      <button type="submit">Sign up</button>
+    </div> -->
+  </div>
+</div>
+
+<div class="usa-footer-secondary_section usa-footer-big-secondary-section">
+  <div class="usa-grid">
+    <div class="usa-footer-logo usa-width-one-half">
+      <img class="usa-footer-logo-img" src="../img/homepage_images/logo-gsa.png" alt="Logo image"> <img class="usa-footer-logo-img" src="../img/homepage_images/logo-omb.png" alt="Logo image">
+      <h3 class="usa-footer-logo-heading">General Services Administration & the Office of Management and Budget</h3>
+    </div>
+    <div class="usa-footer-contact-links usa-width-one-half">
+   <!--   <a class="usa-link-facebook" href="javascript:void(0);">
+        <span>Facebook</span>
+      </a>
+      <a class="usa-link-twitter" href="javascript:void(0);">
+        <span>Twitter</span>
+      </a>
+      <a class="usa-link-youtube" href="javascript:void(0);">
+        <span>YouTube</span>
+      </a>
+      <a class="usa-link-rss" href="javascript:void(0);">
+        <span>RSS</span>
+      </a> -->
+      <address>
+        <h3 class="usa-footer-contact-heading">Contact Us</h3>
+
+        <a href="mailto:PrepSupport@GSA.gov">PrepSupport@GSA.gov</a>
+          <p>Content is updated every 3 months; last on February 1, 2018</p>
+      </address>
+    </div>
+  </div>
+</div>
+</footer>
+<!-- Update the link path to where your JavaScript file is located. For example: /path/to/your/assets/js/lib/uswds.min.js -->
+<script src="../js/uswds.min.js"></script>
+</body>
+</html>
