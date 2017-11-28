@@ -11,7 +11,7 @@
   <body class="layout-demo">
   <a class="usa-skipnav" href="#main-content">Skip to main content</a>
   <header class="usa-header usa-header-basic" role="banner">
-    <!-- Gov banner BEGIN -->
+   <!-- Gov banner BEGIN -->
     <div class="usa-banner">
       <div class="usa-accordion">
         <header class="usa-banner-header">
@@ -29,6 +29,7 @@
             <img class="usa-banner-icon usa-media_block-img" src="../img/icon-dot-gov.svg" alt="Dot gov">
             <div class="usa-media_block-body">
               <p>
+
                 <strong>The .gov means it’s official.</strong>
                 <br>
                 Federal government websites always use a .gov or .mil domain. Before sharing sensitive information online, make sure you’re on a .gov or .mil site by inspecting your browser’s address (or “location”) bar.
@@ -45,10 +46,14 @@
       </div>
     </div>
     <!-- Gov banner END -->
-<div class="usa-nav-container">
+    <div class="usa-nav-container">
       <div class="usa-navbar">
         <button class="usa-menu-btn">Menu</button>
-     <a href="../">  <img src="../img/homepage_images/pgov_logo3.PNG" alt="Pgov_logo" style="float:left;margin-top:50px"></a>
+        <div class="usa-logo" id="logo">
+          <em class="usa-logo-text">
+            <a href="../index.html" accesskey="1" title="Home" aria-label="Home">Performance.gov</a>
+          </em>
+        </div>
       </div>
       <nav role="navigation" class="usa-nav">
          <button class="usa-nav-close">
@@ -67,13 +72,10 @@
             </button>
             <ul id="sidenav-2" class="usa-nav-submenu">
               <li>
-                <a href="../PMA/PMA.html">Overview</a>
+                <a href="#">Overview</a>
               </li>
-              <li>
-                <a href="#">Performance Framework</a>
-              </li>
-              <li>
-                <a href="#">CAP Goal 3</a>
+                       <li>
+                <a href="#">CAP Goal </a>
               </li>
            </ul>
           </li>
@@ -85,7 +87,7 @@
             <li class="usa-megamenu-col">
               <ul>
                 <li>
-                  <a href="agencies/agriculture.html">Department of Agriculture</a>
+                  <a href="../performance-dot-gov-1-master/agencies/agriculture.html">Department of Agriculture</a>
                 </li>
                 <li>
                   <a href="#">Department of Commerce</a>
@@ -172,15 +174,15 @@
               <span>About</span>
             </button>
             <ul id="sidenav-3" class="usa-nav-submenu">
-
-           <li>
-                <a href="../about/About%20P.gov.html">About Performance.gov</a>
+              <li>
+               <a href="../about/About P.gov.html">About Performance.gov</a>
               </li>
               <li>
                 <a href="../about/FAQ.html">FAQs</a>
               </li>
              </ul>
-          </li>        </ul>
+          </li>
+        </ul>
         <form class="usa-search usa-search-small">
           <div role="search">
             <label class="usa-sr-only" for="search-field-small">Search small</label>
@@ -190,7 +192,7 @@
             </button>
           </div>
         </form>
-      </nav>
+       </nav>
     </div>
   </header>
   <div class="usa-overlay"></div>
@@ -198,22 +200,36 @@
     <aside class="usa-width-one-fourth usa-layout-docs-sidenav">
       <ul class="usa-sidenav-list">
         <li>
-          <a class="usa-current"href="agriculture.html">Department of Agriculture</a> 
+          <a class="usa-current" href="agriculture.html">Performance Framework</a> 
         </li>
         <li>
-          <a href="#">Agency Priority Goals</a>
-          <ul class="usa-sidenav-sub_list">
+                   <ul class="usa-sidenav-sub_list">
             <li>
-              <a class="usa-current" href="soil.html">Soil Health and Sustainability</a>
+              <a href="../PMA/Preventing_Improper_Payments.html">Preventing Improper Payments</a>
             </li>
             <li>
-              <a href="pollinator.html">Pollinator Habitat Health</a>
+              <a href="#">Category Management</a>
             </li>
             <li>
-              <a href="access_farmers_ranchers">Access and Opportunity for Beginning Farmers and Ranchers</a>
+              <a href="#">Federal Evaluation Framework</a>
             </li>
             <li>
-              <a href="food_security">Increased Food Security and Diet Quality</a>
+              <a href="#">Connecting Public Financial/Performance Data</a
+            </li>
+                <li>
+              <a href="#">Burden Reduction</a
+            </li>
+                <li>
+              <a href="#">Improving Federal Cyber Security</a
+            </li>
+                <li>
+              <a href="#">IT Modernization</a
+            </li>
+                <li>
+              <a href="#">Mission Support Services</a
+            </li>
+                <li>
+              <a href="#">Personnel Vetting Reform</a
             </li>
           </ul>
       <!--<li>
@@ -224,20 +240,17 @@
         </li>-->
       </ul>
     </aside>
-     <div class="usa-width-three-fourths usa-layout-docs-main_content">
-      <h1>Department of Agriculture &nbsp;<a href="https://www.usda.gov/" target="_blank"><img src="../img/agr/ag_seal.png" alt="USDA logo" align="center" width="87"> </a></h1>
-       <h2 id="section-heading-h2">Soil Health and Sustainability</h2>
-         
-        <p> <img src="../img/agr/Circle-icons-profle.svg.png" alt="circle 5" style="float:left;width:130px;height:130px;padding:15px;align:top;"> 
-<b><u>Goal Leader: John Doe</u></b></p>
-      <p><b><u>Goal Statement:</u></b> USDA will improve the health of our Nation’s soils to make our food, fiber, and energy production systems resilient and sustainable. By September 30, 2017, USDA will continue to implement and monitor progress of modeled science-based practices that improve soil health and sustainability. Nationwide, the soil health practices that are consistent with the Secretary’s Climate Change Mitigation Building Blocks will store (sequester) more than 8.8 million metric tons of carbon per year or more than 32 million metric tons of carbon dioxide equivalents (CO2e). </p>
-      <p><b><u>Goal Action Plan & Progress Update:</u></b></p>
-         <p><img src="../img/PDF_icon.png" alt="pdftest" style="float:left;width:50px;align:bottom;"><a class="usa-external_link" target="_blank" href="../agencies/agriculture/Department of Agriculture_testpdf.pdf">FY 2018, Quarter 1</a>.</p>
-     </div>
-         </div>
-          </div>
-
-      
+    <div class="usa-width-three-fourths usa-layout-docs-main_content">
+      <h1>President's Management Agenda</h1>
+      <h2>Overview</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <h2 id="section-heading-h2">Mission</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
+        <h2 id="section-heading-h2">Other Useful Links and Resources</h2>
+      <p><a class="usa-external_link" target="_blank" href="#/">Sample Link 1</a>.</p>
+      <p><a class="usa-external_link" target="_blank" href="#">Sample Link 2</a>.</p>
+      <p><a class="usa-external_link" target="_blank" href="#">Sample Link 3</a>.</p>
+                  </div>
   </main>
   <footer class="usa-footer usa-footer-big" role="contentinfo">
   <div class="usa-grid usa-footer-return-to-top">
@@ -281,10 +294,13 @@
           <li><a href="javascript:void(0);">Secondary link</a></li>
         </ul>
       </nav>
+
       <div class="usa-sign_up-block usa-width-one-third">
         <h3 class="usa-sign_up-header">Subscribe for updates</h3>
+
         <label class="" for="email" id="">Your email address</label>
         <input id="email" name="email" type="email">
+
         <button type="submit">Sign up</button>
       </div> -->
     </div>
@@ -297,7 +313,7 @@
         <h3 class="usa-footer-logo-heading">General Services Administration & the Office of Management and Budget</h3>
       </div>
       <div class="usa-footer-contact-links usa-width-one-half">
-     <!--   <a class="usa-link-facebook" href="javascript:void(0);">
+        <!--<a class="usa-link-facebook" href="javascript:void(0);">
           <span>Facebook</span>
         </a>
         <a class="usa-link-twitter" href="javascript:void(0);">
@@ -308,7 +324,7 @@
         </a>
         <a class="usa-link-rss" href="javascript:void(0);">
           <span>RSS</span>
-        </a> -->
+        </a>-->
         <address>
           <h3 class="usa-footer-contact-heading">Contact Us</h3>
 
@@ -323,3 +339,6 @@
   <script src="../js/uswds.min.js"></script>
   </body>
 </html>
+
+   
+  
